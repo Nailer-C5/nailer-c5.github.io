@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background-image: url(https://arma3.com/assets/img/wallpapers/apex/2/Arma-3-Apex_wallpaper_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  /*background-image: url(https://arma3.com/assets/img/wallpapers/artwork/4/Arma-3_v2_wallpaper_1920x1080.jpg);*/
+}
+
+.banner {
+  width: 900px;
+  height: 200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.banner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  width: 900px;
+  margin: auto;
+  /*margin-top: 20px;*/
+  height: auto;
+  padding: 20px;
+  /*height: 900px;*/
+  background-color: black;
+  opacity: 0.9;
+  background-blend-mode: normal;
+}
+
+.main p {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+a {
+  color: #539198;
+}
+
+a:visited {
+  /*color: #4F7F45;*/
+  color: #539198;
+}
